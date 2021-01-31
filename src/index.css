@@ -14,11 +14,6 @@
     pointer-events: none;
 }
 
-.hello {
-    display: flex;
-    justify-content: space-around;
-}
-
 .puzzleSlider {
     border: 2px solid darkgrey;
     background-color: #FF7D00;
@@ -51,9 +46,6 @@
     margin: auto;
 }
 
-.squares {
-    
-}
 
 .win-message {
     color: #001524;
