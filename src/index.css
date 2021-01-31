@@ -4,13 +4,19 @@
 
 .puzzlePiece {
     box-sizing: border-box;
+    position: relative;
+    text-align: center;
     border: 1px solid grey;
     background-color: #7B9E87;
     font-size: 3rem;
-    min-height: 21vh;
-    min-width: 21.21vh;
     margin: 1px;
+    width: 32.7%;
     pointer-events: none;
+}
+
+.hello {
+    display: flex;
+    justify-content: space-around;
 }
 
 .puzzleSlider {
@@ -39,14 +45,14 @@
 }
 
 .board {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    max-width: 64.44vh;
-    /* width: 30.4rem;   
-    height: 30.4rem; */
     border: 3px solid black;
+    /* height: 30em; */
+    max-width: 30em;
     margin: auto;
+}
+
+.squares {
+    
 }
 
 .win-message {
