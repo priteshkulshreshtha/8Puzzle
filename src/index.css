@@ -1,0 +1,102 @@
+* {
+    background-color: #ffffff;
+}
+
+.puzzlePiece {
+    box-sizing: border-box;
+    border: 1px solid grey;
+    background-color: #7B9E87;
+    font-size: 3rem;
+    min-height: 21vh;
+    min-width: 21.21vh;
+    margin: 1px;
+    pointer-events: none;
+}
+
+.puzzleSlider {
+    border: 2px solid darkgrey;
+    background-color: #FF7D00;
+    pointer-events: stroke;
+    transition: background-color 0.5s;
+    transition-delay: 0.4s;
+}
+
+.puzzleBlank {
+    border: 1px solid white;
+    color: white;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.puzzleSlider:hover {
+    background-color: #FF7D00;
+    opacity: .90;
+    box-shadow: 0 0 10px #001524;
+    translate: 2rem;
+    cursor: pointer;
+    color: white;
+    transition: 150ms;
+}
+
+.board {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    max-width: 64.44vh;
+    /* width: 30.4rem;   
+    height: 30.4rem; */
+    border: 3px solid black;
+    margin: auto;
+}
+
+.win-message {
+    color: #001524;
+    margin-top: 2rem;
+    font-size: 2rem;
+    transition: all 0.5s ease-in;
+    display: flex;
+    justify-content: center;
+}
+
+.not-won {
+    display: none;
+}
+
+
+.solving {
+    color: #001524;
+    font-size: 2rem;
+    transition: all 0.5s ease-in;
+    display: flex;
+    justify-content: center;
+}
+
+.sol {
+    color: #001524;
+    font-size: 2rem;
+    transition: all 0.5s ease-in;
+    margin: 2rem auto;
+}
+
+.autosolve {
+    outline: none;
+    border: none;
+    font-size: large;
+    color: white;
+    background-color: #001524;
+    margin: 2rem auto;
+    padding: 0.75rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.solvediv {
+    display: flex;
+}
+
+.greet {
+    text-align: center;
+    font-size: 3.5rem;
+}
